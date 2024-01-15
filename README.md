@@ -9,7 +9,7 @@ This gem is heavily inspired by two other gems, [docx](https://github.com/ruby-d
 
 Add to your Gemfile
 ```
-gem "power_point_pptx", git: "https://github.com/test-IO/pptx"
+gem 'power_point_pptx'
 ```
 
 
