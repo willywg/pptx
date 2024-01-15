@@ -3,7 +3,7 @@
 require "nokogiri"
 require "zip"
 
-module Pptx
+module PowerPointPptx
   class Document
     def self.open(file)
       new(file)

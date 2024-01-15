@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-RSpec.describe Pptx::Slide do
+RSpec.describe PowerPointPptx::Slide do
   let(:file_path) { file_fixture("dummy.pptx") }
   let(:file) { File.read(file_path) }
-  let(:document) { Pptx::Document.open(file) }
+  let(:document) { PowerPointPptx::Document.open(file) }
   let(:slide) { document.slides.first }
 
   describe "#content" do

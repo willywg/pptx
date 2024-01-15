@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/pptx/version"
+require_relative "lib/power_point_pptx/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "pptx"
-  spec.version = Pptx::VERSION
+  spec.name = "power_point_pptx"
+  spec.version = PowerPointPptx::VERSION
   spec.authors = ["Garcia Fabien"]
   spec.email = ["fab0670312047@gmail.com"]
 

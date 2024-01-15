@@ -2,7 +2,7 @@
 
 require "nokogiri"
 
-module Pptx
+module PowerPointPptx
   # Represents a slide in a PowerPoint presentation.
   class Slide
     attr_reader :parsed_xml, :xml, :entry_name

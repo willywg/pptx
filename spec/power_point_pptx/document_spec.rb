@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe Pptx::Document do
+RSpec.describe PowerPointPptx::Document do
   let(:file_path) { file_fixture("dummy.pptx") }
   let(:file) { File.read(file_path) }
 
@@ -15,7 +15,7 @@ RSpec.describe Pptx::Document do
       expect(described_class.open(file).slides).to be_a(Array)
       expect(described_class.open(file).slides.count).to eq(2)
 
-      expect(described_class.open(file).slides.first).to be_a(Pptx::Slide)
+      expect(described_class.open(file).slides.first).to be_a(PowerPointPptx::Slide)
     end
   end
 

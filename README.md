@@ -1,4 +1,4 @@
-# Pptx
+# PowerPointPptx
 
 The goal of this gem is to be able to read and update powerpoint presentation pptx files.
 
@@ -9,7 +9,7 @@ This gem is heavily inspired by two other gems, [docx](https://github.com/ruby-d
 
 Add to your Gemfile
 ```
-gem "pptx", github: "https://github.com/test-IO/pptx"
+gem "power_point_pptx", git: "https://github.com/test-IO/pptx"
 ```
 
 
@@ -19,10 +19,10 @@ gem "pptx", github: "https://github.com/test-IO/pptx"
 Example of usage
 
 ```
-require 'pptx'
+require 'power_point_pptx'
 
 # Open an existing PowerPoint presentation
-presentation = Pptx::Document.open('path/to/presentation.pptx')
+presentation = PowerPointPptx::Document.open('path/to/presentation.pptx')
 
 # Get the first slide
 slide = presentation.slides.first

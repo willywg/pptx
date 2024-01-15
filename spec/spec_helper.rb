@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "pptx"
+require "power_point_pptx"
 
 Dir["./spec/support/**/*.rb"].sort.each { |f| require f }
 
