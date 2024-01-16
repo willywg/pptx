@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/test-IO/pptx/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/test-IO/pptx/tree/main)
+
 # PowerPointPptx
 
 The goal of this gem is to be able to read and update powerpoint presentation pptx files.
