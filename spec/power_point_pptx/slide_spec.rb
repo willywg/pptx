@@ -17,7 +17,7 @@ RSpec.describe PowerPointPptx::Slide do
       expect do
         slide.content = ["This is a new title", "This is a new subtitle"]
       end.to change { slide.content }
-         .and change { slide.xml }
+         .and(change { slide.xml })
 
       expect(slide.content).to eq(["This is a new title", "This is a new subtitle"])
     end

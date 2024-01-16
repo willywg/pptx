@@ -9,5 +9,11 @@ Style/StringLiteralsInInterpolation:
   Enabled: true
   EnforcedStyle: double_quotes
 
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  AllowedMethods: ['describe', 'context', 'it', 'permissions', 'define', 'factory', 'shared_examples_for', 'let']
+
 Layout/LineLength:
   Max: 120

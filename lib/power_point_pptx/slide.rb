@@ -6,7 +6,6 @@ module PowerPointPptx
   # Represents a slide in a PowerPoint presentation.
   class Slide
     attr_reader :parsed_xml, :xml, :entry_name
-    attr_accessor :xml
 
     def initialize(entry, entry_name)
       @entry_name = entry_name

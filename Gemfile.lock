@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pptx (0.1.0)
+    power_point_pptx (0.1.0)
       nokogiri (~> 1.13, >= 1.13.0)
       rubyzip (~> 2.0)
 
@@ -12,17 +12,7 @@ GEM
     diff-lcs (1.5.0)
     json (2.7.1)
     language_server-protocol (3.17.0.3)
-    nokogiri (1.16.0-aarch64-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.0-arm-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.0-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.0-x86-linux)
-      racc (~> 1.4)
     nokogiri (1.16.0-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
     parallel (1.24.0)
     parser (3.3.0.3)
@@ -72,7 +62,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  pptx!
+  power_point_pptx!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)
