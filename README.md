@@ -24,17 +24,18 @@ Example of usage
 require 'power_point_pptx'
 
 # Open an existing PowerPoint presentation
-presentation = PowerPointPptx::Document.open('path/to/presentation.pptx')
+pptx_file = 'path/to/presentation.pptx'
+presentation = PowerPointPptx::Document.open(pptx_file)
 
 # Get the first slide
 slide = presentation.slides.first
 
 # Retrieve content slide
-slide.contents
+slide.content
 
 # Change content
 
-slide.contents = ["This is a new content]
+slide.content = ["This is a new content]
 
 # Stream the new version and save it in a temporary file
 
